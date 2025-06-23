@@ -10,7 +10,7 @@ import News from "../public/json/news.json";
 import { FaTwitter, FaGlobe, FaLink } from "react-icons/fa";
 import { MdAccessTimeFilled, MdLocationOn } from "react-icons/md";
 import dynamic from "next/dynamic";
-// import ReportList from "components/ReportList";
+// import ReportList from "../components/ReportList";
 const Header = dynamic(() => import("../components/Header"), { ssr: false });
 const ReportList = dynamic(() => import("../components/ReportList"), {
   ssr: false,

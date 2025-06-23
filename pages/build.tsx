@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Footer } from "../components/Footer";
 
 import localFont from "next/font/local";
-import AnimatedAccordionList from "components/AnimatedAccordionList";
+import AnimatedAccordionList from "../components/AnimatedAccordionList";
 import faqList from "../public/json/buildfaq.json";
 import dynamic from "next/dynamic";
 

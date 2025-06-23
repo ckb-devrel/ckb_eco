@@ -6,7 +6,7 @@ import localFont from "next/font/local";
 import React, { useEffect, useMemo } from "react";
 import EcoList from "../public/json/eco.json";
 
-import EcoBlock from "components/EcoBlock";
+import EcoBlock from "../components/EcoBlock";
 import Fuse from "fuse.js";
 import { debounce } from "lodash";
 import dynamic from "next/dynamic";
