@@ -4,4 +4,8 @@
 
 [build.environment]
   NODE_ENV = "production"
+  LANG = "zh_CN.UTF-8"
+  LC_ALL = "zh_CN.UTF-8"
+  NODE_VERSION = "18"
+  YARN_VERSION = "1.22.22"
  
