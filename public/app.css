@@ -1341,7 +1341,7 @@ footer {
 }
 
 .build-block-4 .content h2 {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .build-block-4 .content p {
@@ -1810,7 +1810,7 @@ footer {
   display: inline-block;
   background: #FF9900;
   box-shadow: 0px 4px 4px 0px #FF990040;
-  padding: 12px;
+  padding: 12px 10px;
   border-radius: 12px;
   height: 25px;
   line-height: 25px;
@@ -2536,7 +2536,9 @@ footer {
     line-height: 20px;
     margin-top: 20px;
   }
-
+  .build-block-3 .process-block p a{
+    color: #000!important;
+  }
   .build-block-3 .bg-hill {
     margin-top: -10px;
   }
