@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import Link from "next/link";
-import { FaXTwitter,FaDiscord } from "react-icons/fa6";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+// import { FaTelegramPlane } from "react-icons/fa";
 
-import { SiSubstack } from "react-icons/si";
+// import { SiSubstack } from "react-icons/si";
 
-const IconLinks = (): JSX.Element => {
+const IconLinks = () => {
   return (
-    <div  className="nav-links">
+    <div className="nav-links">
     <Link href={"https://twitter.com/CKBEcoFund"} target="_blank">
       <FaXTwitter />
     </Link>

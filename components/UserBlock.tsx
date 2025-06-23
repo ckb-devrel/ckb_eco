@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
-import { FaXTwitter, FaDiscord } from "react-icons/fa6";
+import React from "react";
+import { FaXTwitter} from "react-icons/fa6";
 import isMobile from "is-mobile";
 
 interface user {

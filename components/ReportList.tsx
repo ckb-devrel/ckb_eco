@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import News from "../public/json/news.json";
 
 const StatusBox = () => {

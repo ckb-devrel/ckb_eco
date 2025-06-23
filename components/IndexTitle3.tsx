@@ -1,13 +1,12 @@
+
 import React from "react";
-
 import isMobile from "is-mobile";
-
-const IndexTitle3 = (): JSX.Element => {
-  const is_mobile = isMobile();
+const IndexTitle3 = (): React.ReactElement => {
+  const mobile = isMobile();
 
   return (
     <>
-      {is_mobile ? (
+      {mobile ? (
         <>The Role of CKB <br /> in the Bitcoin Ecosystem</>
       ) : (
         <>

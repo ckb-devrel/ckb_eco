@@ -1,11 +1,11 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 
 // import Script from "next/script";
 import Link from "next/link";
 import { MdEmail } from "react-icons/md";
 
-const EmailSubscribe = (): JSX.Element => {
+const EmailSubscribe = () => {
   // const initSubstack = () => {
   //   if ((window as any).CustomSubstackWidget) {
   //     delete (window as any).CustomSubstackWidget;

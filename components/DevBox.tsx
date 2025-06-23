@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import isMobile from "is-mobile";
 import { Tooltip } from 'react-tooltip';
 
-const DevBox = (): JSX.Element => {
+const DevBox = () => {
   const is_mobile = isMobile();
   const [devOpen, setDevOpen] = useState(true);
 

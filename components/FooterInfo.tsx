@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
 
+import React from "react";
 import Link from "next/link";
 
-const FooterInfo = (): JSX.Element => {
+const FooterInfo = () => {
   return (
     <div className="footerinfo">
       <dl>
