@@ -50,7 +50,7 @@ const FooterInfo = () => {
           <Link href={"/about#team"}>Team</Link>
         </dd> */}
         <dd>
-          <Link href={"https://www.ckbeco.fund/en/images/logo/Logo-CKB%20&%20CKB%20Eco%20Fund.zip"}>Media Kit</Link>
+          <Link href={"https://www.ckbeco.fund/images/logo/Logo-CKB%20&%20CKB%20Eco%20Fund.zip"}>Media Kit</Link>
         </dd>
       </dl>
     </div>
